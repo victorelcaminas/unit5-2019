@@ -12,7 +12,7 @@ public class Polygon {
 	}
 	
 	@Override 
-	public String toString() {
+	public String toString() { 
 		String s = "";
 		for(int i = 0; i < points.length; i++) {			
 			s += points[i].toString() + "-";
