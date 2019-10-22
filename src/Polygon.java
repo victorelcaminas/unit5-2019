@@ -11,7 +11,7 @@ public class Polygon {
 		points = new Point[0];
 	}
 	
-	@Override
+	@Override 
 	public String toString() {
 		String s = "";
 		for(int i = 0; i < points.length; i++) {			
