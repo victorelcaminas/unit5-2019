@@ -8,6 +8,10 @@ public class MainPolygon {
 		
 		Polygon pol = new Polygon(p);
 		System.out.println(pol.toString());
+		System.out.println(pol.getLength());
+		pol.setOffset(2, 3);
+		System.out.println(pol.toString());
+		System.out.println(pol.getLength());
 		
 
 	}
