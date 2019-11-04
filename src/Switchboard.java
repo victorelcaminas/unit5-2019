@@ -33,5 +33,19 @@ public class Switchboard {
 	public int getNumRegisteredCalls() {
 		return numCall;
 	}
+	
+	public double getTurnover() {
+		double turnover = 0;
+		for (int i = 0; i < numCall; i++) {
+			turnover += calls[i].getCost();
+		}
+		return turnover;
+	}
 
 }
+
+
+
+
+
+

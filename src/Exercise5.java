@@ -10,6 +10,9 @@ public class Exercise5 {
 		sb.print();
 		System.out.println("------");
 		sb.print(1);
+		
+		System.out.println("Num calls: " + sb.getNumRegisteredCalls());
+		System.out.println("Turnover: " + sb.getTurnover());
 	}
 
 }
