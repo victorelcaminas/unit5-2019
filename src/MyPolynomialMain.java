@@ -11,6 +11,8 @@ public class MyPolynomialMain {
 		MyPolynomial p4 = new MyPolynomial("poly");
 		
 		System.out.println(p3);
+		
+		MyPolynomial p5 = p3.add(p2);
 
 	}
 
