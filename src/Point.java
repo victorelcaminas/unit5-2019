@@ -45,6 +45,13 @@ public class Point {
 		x += offX;
 		y += offY;
 	}
+	
+	public static double distance(Point p1, Point p2) {
+		int c1 = p2.getX() - p1.getX();
+		int c2 = p2.getY() - p1.getY();
+		double h = Math.sqrt(c1 * c1 + c2 * c2);
+		return h;
+	}
 
 }
 
